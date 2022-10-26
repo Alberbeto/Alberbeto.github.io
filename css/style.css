@@ -1,0 +1,157 @@
+
+
+body{
+    font-family: 'MOntserrat',sans-serif;
+    overflow: scroll;
+}
+
+#menu li>a{
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #3f3f3f;
+}
+
+#menu form>button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*slider de las imagenes*/
+
+.carousel.inner{
+    max-height: 39rem;
+ 
+        
+}
+
+
+/*panatalla pequeña*/
+@media (max-width:768px){
+    #intro,#equipo{
+        width:90% !important;
+    }
+  
+
+
+}
+
+#intro{
+    background-color: rgb(9, 95, 255);
+    color:white;
+   
+
+   
+}
+
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+.container-fluid img{
+    border-radius: 10%;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+.mapa{
+    background: url(../img/mapa.jpg);
+    width: 100px;
+    height: 500px;
+}
+
+#local{
+    background-color: #3f3f3f;
+    padding-bottom:300px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+@media(max-width:120px){
+    #local{
+        flex-wrap:wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin:auto;
+        padding-top: 50px;
+    }
+
+}
+
+#numero-local div{
+    padding: 0 20px 0 0;
+    height: 48px;
+
+}
+
+#numero-locla div:not(:nth-last-child){
+    border-right:2px solid #f3f3f3
+}
+
+#numero-locla div:not(:nth-last-child){
+
+    padding-left: 20px;
+
+}
+
+#numero-local p{
+    margin: 0;
+}
+
+#container-formulario{
+position: absolute;
+top:570%;
+left:50%;
+transform: translate(-50%,-50%);
+background: #fbfafa;
+border-radius: 5px;
+max-width: 500px;
+}
+
+#titulo-formulario{
+
+    color: #3f3f3f;
+
+
+}
+
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer .p{
+    color:#f3f3f3;
+    text-align: center;
+
+}
+
+#icon i{
+    font-size: 26px;
+    padding: 0;
+    color: #f3f3f3;
+
+}
